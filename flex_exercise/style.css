@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*ヘッター*/
+.header{
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #ff00ff;
+}
+
+.header-box{
+  flex-basis: 140px;
+  height: 70px;
+  margin: 0 10px;
+  background-color: #fbb3ff;
+}
+
+.header-box:first-child{
+  margin-right: auto;
+}
+
+/*メイン*/
+main{
+  display: flex;
+  justify-content: center;
+}
+.sidebar{
+  width: 300px;
+  background-color: #d8ffb6;
+}
+
+.main-box{
+  padding: 20px;
+  max-width: 700px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #00b522;
+}
+
+.box{
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: #fff75a;
+}
+
+/*フッター*/
+.footer{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #52a1ff;
+}
+
+.footer-box{
+  flex-basis: 45%;
+  max-width: 600px;
+  height: 40px;
+  margin: 10px;
+  background-color: #b6e7ff;
+}

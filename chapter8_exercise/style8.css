@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list{
+  margin-bottom: 50px;
+}
+
+.list-item{
+  list-style:none;
+  padding: 20px;
+}
+
+.list-item:nth-child(odd){
+  background-color: #eee;
+}
+
+.contena{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box{
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  background-color: #ffd700;
+}
+
+.box:first-child,
+.box:nth-child(5),
+.box:last-child{
+  background-color: #ff8c00;
+}
+
+.box:nth-child(3n){ /* 3の倍数を指定*/
+  margin-right: 0;
+}
+
+.box:nth-last-child(-n + 3){ /* 最後から3番目までを指定*/
+  margin-bottom: 0;
+}
